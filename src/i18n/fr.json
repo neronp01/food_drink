@@ -1,0 +1,19 @@
+{
+	"fr": {
+		"food_drink": {
+			"title": "Vente de services de restauration et débits de boissons",
+			"y_label": "Ventes (en millions de dollars)",
+			"x_label": "",
+			"z_label": "Région",
+			"change": "Variation mensuelle (%)",
+			"total": "Total, services de restauration et débits de boissons",
+			"special_service": "Services de restauration spéciaux",
+			"drink_place": "Débits de boissons (alcoolisées)",
+			"full_service" : "Restaurants à service complet",
+			"limited_service": "Établissements de restauration à service restreint",
+			"table1_caption": "{{title}} - {{date}}",
+			"chart_alt": "Graphique montrant la Vente de services de restauration et débits de boissons, {{sgc}}, {{startDate}} à {{endDate}}",
+			"map_alt": "Carte des provinces et territoires du Canada et leur {{change}} à la {{title}} en {{date}}"
+		}
+	}
+}

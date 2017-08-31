@@ -1,0 +1,80 @@
+.table1 h2,
+.table2 h2 {
+	text-align: center;
+}
+
+.canada-map path {
+	stroke: #fff;
+	stroke-width: 0.03;
+}
+
+.canada-map path {
+	fill: #94a6b2;
+	transition: opacity 1s ease-in-out;
+}
+
+.canada-map path:hover {
+	stroke: #444!important;
+	stroke-width: 0.4;
+	cursor: pointer;
+}
+
+.canada-map path.selected {
+	stroke: #026!important;
+	stroke-width: 0.4;
+}
+
+.canada-map path.NU:hover,
+.canada-map path.NU.selected {
+	stroke-width: 0.2;
+}
+
+.dline {
+	stroke: #000;
+	stroke-width: 1.5;
+}
+
+.total {
+	stroke: #1A75B5;
+}
+
+.drink_place {
+	stroke: #cb4b00;
+	stroke-dasharray:2,4;
+}
+
+.full_service {
+	stroke: #28A026;
+	stroke-dasharray:6,4;
+}
+
+.limited_service {
+	stroke: #D82A23;
+	stroke-dasharray:12,4;
+}
+
+.special_service {
+	stroke: #9364BE;
+	stroke-dasharray:12,4,2,4;
+}
+
+.x.axis .tick:not(:nth-of-type(12n-11)) text{
+	display: none;
+}
+
+
+tbody.others th {
+	font-weight: normal;
+}
+
+tbody td,
+.table2 thead th {
+	text-align: right;
+}
+
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+  /* IE9+ CSS */
+  svg{
+		width: 100%;
+	}
+}

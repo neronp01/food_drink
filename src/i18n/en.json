@@ -1,0 +1,19 @@
+{
+	"en": {
+		"food_drink": {
+			"title": "Food services and drinking places sales",
+			"y_label": "Sales (in millions of dollars)",
+			"x_label": "",
+			"z_label": "Region",
+			"change": "Month-to-month change (%)",
+			"total": "Total, food services and drinking places",
+			"special_service": "Special food services",
+			"drink_place": "Drinking places (alcoholic beverages)",
+			"full_service" : "Full-service restaurants",
+			"limited_service": "Limited-service eating places",
+			"table1_caption": "{{title}} - {{date}}",
+			"chart_alt": "Chart showing food services and drinking places sales, {{sgc}}, {{startDate}} to {{endDate}}",
+			"map_alt": "Map of Canada provinces and territories showing their respective {{title}} {{change}} in {{date}}"
+		}
+	}
+}
